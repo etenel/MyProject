@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    //外置SD卡
+    <external-path
+        name="external_file"
+        path="." />
+    //外置沙盒file目录
+    <files-path
+        name="inner_app_file"
+        path="." />
+    //外置沙盒cache目录
+    <cache-path
+        name="inner_app_cache"
+        path="." />
+    //内置沙盒file目录
+    <external-files-path
+        name="external_app_file"
+        path="." />
+
+    <external-files-path
+        name="log_file"
+        path="log" />
+    //内置沙盒cache目录
+    <external-cache-path
+        name="external_app_cache"
+        path="." />
+
+    <external-cache-path
+        name="img"
+        path="pos" />
+    //类型可以重复设置，按照从下往上的顺序读取
+</paths>
